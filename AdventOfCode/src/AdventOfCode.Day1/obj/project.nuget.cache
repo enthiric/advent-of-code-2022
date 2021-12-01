@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OVWmm0IracvSOnxO2t0KC+hqr1mWxPI2IyqhaLNx5SCCOGtLb/HuxhtP9Dee5je5A/GyFp8k4rAQbEv2FSb4PA==",
+  "dgSpecHash": "lx4enVdVWuKc0BNhLVG/vebI3Lf02tfvjpfZC021nsRyt5QWIiRQOyXJjGHM7W5aVPcclYii7uRFcPGAEelfNw==",
   "success": true,
   "projectFilePath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day1/AdventOfCode.Day1.csproj",
   "expectedPackageFiles": [],

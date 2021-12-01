@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/jurgenheeffer/.nuget/packages/": {},
@@ -35,7 +54,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj": {
+              "projectPath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
