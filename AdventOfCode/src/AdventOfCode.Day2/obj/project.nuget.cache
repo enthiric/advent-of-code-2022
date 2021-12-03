@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FuI5HSuj4sFf86eGJCAK8uAyNeM5Pq9TMq0JJkeUYMgj1J/0SeST8G107dH5uf4jxIitA1ePFiShct4ueUNYUA==",
+  "dgSpecHash": "Gc0h38ztVv96fNrI46icmDqtmgUrPbZljMXY65yvqv+IFIr6gYbQj59SThnlDXXi3owrVt9+hWUxM5cBjZ+8FQ==",
   "success": true,
   "projectFilePath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jurgenheeffer/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.12/microsoft.netcore.app.host.osx-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj": {}
+  },
+  "projects": {
+    "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj",
+        "projectName": "AdventOfCode.Day3",
+        "projectPath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj",
+        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
+        "outputPath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/AdventOfCode.Day3/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jurgenheeffer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj": {
+                "projectPath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj",
+        "projectName": "Common",
+        "projectPath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/Common.csproj",
+        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
+        "outputPath": "/Users/jurgenheeffer/Projects/advent-of-code-2021/AdventOfCode/src/Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jurgenheeffer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
