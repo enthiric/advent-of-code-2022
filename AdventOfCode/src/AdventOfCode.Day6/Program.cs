@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Common;
@@ -25,9 +24,6 @@ namespace AdventOfCode.Day5
 
             public void ProgressDay()
             {
-                var watch = new System.Diagnostics.Stopwatch();
-                watch.Start();
-
                 Days++;
 
                 var updated = new Dictionary<int, long>()
@@ -58,8 +54,6 @@ namespace AdventOfCode.Day5
                 }
 
                 Fish = updated;
-
-                watch.Stop();
             }
 
             public override string ToString()
