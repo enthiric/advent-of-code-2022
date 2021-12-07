@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Common;
 
-namespace AdventOfCode.Day5
+namespace AdventOfCode.Day6
 {
     class Program
     {
