@@ -22,9 +22,10 @@ namespace AdventOfCode.Day7
                         invalid = true;
                         break;
                     }
+
                     cost += c;
                 }
-                
+
                 if (invalid) continue;
 
                 if (fuel > cost || fuel == 0)
@@ -35,7 +36,7 @@ namespace AdventOfCode.Day7
 
             return fuel;
         }
-        
+
         static int Part2(IEnumerable<Crab> crabs)
         {
             var fuel = 0;
@@ -45,20 +46,17 @@ namespace AdventOfCode.Day7
                 var invalid = false;
                 foreach (var crab in crabs)
                 {
-                    var o = 0;
-                    for (var l = 1; l <= (crab.Position > i ? crab.Position - i : i - crab.Position); l++)
-                    {
-                        o += l * 1;
-                    }
-
+                    var c = (crab.Position > i ? crab.Position - i : i - crab.Position);
+                    var o = c * (c + 1) / 2;
                     if (o <= -1)
                     {
                         invalid = true;
                         break;
                     }
+
                     cost += o;
                 }
-                
+
                 if (invalid) continue;
 
                 if (fuel > cost || fuel == 0)
