@@ -1,41 +1,26 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Common;
+﻿using Common;
 
-namespace AdventOfCode.Day1
+
+static int Part1(IEnumerable<string> input)
 {
-    class Program
-    {
-        private static int Part1(int[] input)
-        {
-            var current = 0;
-            var increases = 0;
-            foreach (var i in input)
-            {
-                if (current != 0 && current < i) increases++;
-                current = i;
-            }
-
-            return increases;
-        }
-
-        private static int Part2(int[] input)
-        {
-            var result = new List<int>();
-            for (var i = 0; i < input.Length; i++)
-            {
-                if (i + 2 >= input.Length) break;
-                result.Add(input[i] + input[i + 1] + input[i + 2]);
-            }
-
-            return Part1(result.ToArray());
-        }
-        
-        static void Main(string[] args)
-        {
-            var input = Parser.Load().AsInt32s().ToArray();
-            Runner.Run(input, Part1);
-            Runner.Run(input, Part2);
-        }
-    }
+    var list = string.Join(" ", Parser.Load())
+        .Split("  ")
+        .Select(x => x.Split(" "))
+        .Select(x => x.Select(int.Parse).Sum()).ToList();
+    list.Sort();
+    return list.Last();
 }
+
+static int Part2(IEnumerable<string> input)
+{
+    var list = string.Join(" ", Parser.Load())
+        .Split("  ")
+        .Select(x => x.Split(" "))
+        .Select(x => x.Select(int.Parse).Sum()).ToList();
+    list.Sort();
+    return list.Skip(Math.Max(0, list.Count() - 3)).Sum();
+}
+
+var input = Parser.Load();
+Runner.Run(input, Part1);
+Runner.Run(input, Part2);
